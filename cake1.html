@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cake Heaven</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background: #ff69b4;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1589308078052-156f986c894c?auto=format&fit=crop&w=1500&q=80') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+    }
+
+    .hero a {
+      background: #ff69b4;
+      padding: 12px 25px;
+      margin-top: 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .cakes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .cake {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 15px;
+    }
+
+    .cake img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .cake h3 {
+      margin-top: 10px;
+      color: #ff69b4;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cake Heaven</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Sweet Moments Begin Here</h2>
+    <p>Handcrafted cakes for every celebration</p>
+    <a href="#">Order Now</a>
+  </section>
+
+  <section class="section">
+    <h2>Our Signature Cakes</h2>
+    <div class="cakes">
+      <div class="cake">
+        <img src="1.jpg" alt="Chocolate Cake" />
+        <h3>Chocolate Fantasy</h3>
+        <p>$30</p>
+      </div>
+      <div class="cake">
+        <img src="2.jpg" alt="Red Velvet" />
+        <h3>Red Velvet</h3>
+        <p>$35</p>
+      </div>
+      <div class="cake">
+        <img src="3.jpg" alt="Strawberry Cake" />
+        <h3>Strawberry Cream</h3>
+        <p>$28</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cake Heaven. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
